@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8646BD72B954C9200E45767 /* Coptix_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8646BD62B954C9200E45767 /* Coptix_iOSApp.swift */; };
+		C8646BD92B954C9200E45767 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8646BD82B954C9200E45767 /* ContentView.swift */; };
+		C8646BDB2B954C9300E45767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8646BDA2B954C9300E45767 /* Assets.xcassets */; };
+		C8646BDE2B954C9300E45767 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8646BDD2B954C9300E45767 /* Preview Assets.xcassets */; };
+		C8646BE82B954C9400E45767 /* Coptix_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8646BE72B954C9400E45767 /* Coptix_iOSTests.swift */; };
+		C8646BF22B954C9400E45767 /* Coptix_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8646BF12B954C9400E45767 /* Coptix_iOSUITests.swift */; };
+		C8646BF42B954C9400E45767 /* Coptix_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8646BF32B954C9400E45767 /* Coptix_iOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8646BE42B954C9400E45767 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8646BCB2B954C9200E45767 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8646BD22B954C9200E45767;
+			remoteInfo = "Coptix-iOS";
+		};
+		C8646BEE2B954C9400E45767 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8646BCB2B954C9200E45767 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8646BD22B954C9200E45767;
+			remoteInfo = "Coptix-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C8646BD32B954C9200E45767 /* Coptix-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coptix-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8646BD62B954C9200E45767 /* Coptix_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coptix_iOSApp.swift; sourceTree = "<group>"; };
+		C8646BD82B954C9200E45767 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C8646BDA2B954C9300E45767 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8646BDD2B954C9300E45767 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C8646BE32B954C9400E45767 /* Coptix-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coptix-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8646BE72B954C9400E45767 /* Coptix_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coptix_iOSTests.swift; sourceTree = "<group>"; };
+		C8646BED2B954C9400E45767 /* Coptix-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coptix-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8646BF12B954C9400E45767 /* Coptix_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coptix_iOSUITests.swift; sourceTree = "<group>"; };
+		C8646BF32B954C9400E45767 /* Coptix_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coptix_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8646BD02B954C9200E45767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8646BE02B954C9400E45767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8646BEA2B954C9400E45767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8646BCA2B954C9200E45767 = {
+			isa = PBXGroup;
+			children = (
+				C8646BD52B954C9200E45767 /* Coptix-iOS */,
+				C8646BE62B954C9400E45767 /* Coptix-iOSTests */,
+				C8646BF02B954C9400E45767 /* Coptix-iOSUITests */,
+				C8646BD42B954C9200E45767 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8646BD42B954C9200E45767 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8646BD32B954C9200E45767 /* Coptix-iOS.app */,
+				C8646BE32B954C9400E45767 /* Coptix-iOSTests.xctest */,
+				C8646BED2B954C9400E45767 /* Coptix-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8646BD52B954C9200E45767 /* Coptix-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C8646BD62B954C9200E45767 /* Coptix_iOSApp.swift */,
+				C8646BD82B954C9200E45767 /* ContentView.swift */,
+				C8646BDA2B954C9300E45767 /* Assets.xcassets */,
+				C8646BDC2B954C9300E45767 /* Preview Content */,
+			);
+			path = "Coptix-iOS";
+			sourceTree = "<group>";
+		};
+		C8646BDC2B954C9300E45767 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C8646BDD2B954C9300E45767 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C8646BE62B954C9400E45767 /* Coptix-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8646BE72B954C9400E45767 /* Coptix_iOSTests.swift */,
+			);
+			path = "Coptix-iOSTests";
+			sourceTree = "<group>";
+		};
+		C8646BF02B954C9400E45767 /* Coptix-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C8646BF12B954C9400E45767 /* Coptix_iOSUITests.swift */,
+				C8646BF32B954C9400E45767 /* Coptix_iOSUITestsLaunchTests.swift */,
+			);
+			path = "Coptix-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8646BD22B954C9200E45767 /* Coptix-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8646BF72B954C9400E45767 /* Build configuration list for PBXNativeTarget "Coptix-iOS" */;
+			buildPhases = (
+				C8646BCF2B954C9200E45767 /* Sources */,
+				C8646BD02B954C9200E45767 /* Frameworks */,
+				C8646BD12B954C9200E45767 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Coptix-iOS";
+			productName = "Coptix-iOS";
+			productReference = C8646BD32B954C9200E45767 /* Coptix-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8646BE22B954C9400E45767 /* Coptix-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8646BFA2B954C9400E45767 /* Build configuration list for PBXNativeTarget "Coptix-iOSTests" */;
+			buildPhases = (
+				C8646BDF2B954C9400E45767 /* Sources */,
+				C8646BE02B954C9400E45767 /* Frameworks */,
+				C8646BE12B954C9400E45767 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8646BE52B954C9400E45767 /* PBXTargetDependency */,
+			);
+			name = "Coptix-iOSTests";
+			productName = "Coptix-iOSTests";
+			productReference = C8646BE32B954C9400E45767 /* Coptix-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C8646BEC2B954C9400E45767 /* Coptix-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8646BFD2B954C9400E45767 /* Build configuration list for PBXNativeTarget "Coptix-iOSUITests" */;
+			buildPhases = (
+				C8646BE92B954C9400E45767 /* Sources */,
+				C8646BEA2B954C9400E45767 /* Frameworks */,
+				C8646BEB2B954C9400E45767 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8646BEF2B954C9400E45767 /* PBXTargetDependency */,
+			);
+			name = "Coptix-iOSUITests";
+			productName = "Coptix-iOSUITests";
+			productReference = C8646BED2B954C9400E45767 /* Coptix-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8646BCB2B954C9200E45767 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					C8646BD22B954C9200E45767 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					C8646BE22B954C9400E45767 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C8646BD22B954C9200E45767;
+					};
+					C8646BEC2B954C9400E45767 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C8646BD22B954C9200E45767;
+					};
+				};
+			};
+			buildConfigurationList = C8646BCE2B954C9200E45767 /* Build configuration list for PBXProject "Coptix-iOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8646BCA2B954C9200E45767;
+			productRefGroup = C8646BD42B954C9200E45767 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8646BD22B954C9200E45767 /* Coptix-iOS */,
+				C8646BE22B954C9400E45767 /* Coptix-iOSTests */,
+				C8646BEC2B954C9400E45767 /* Coptix-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8646BD12B954C9200E45767 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8646BDE2B954C9300E45767 /* Preview Assets.xcassets in Resources */,
+				C8646BDB2B954C9300E45767 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8646BE12B954C9400E45767 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8646BEB2B954C9400E45767 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8646BCF2B954C9200E45767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8646BD92B954C9200E45767 /* ContentView.swift in Sources */,
+				C8646BD72B954C9200E45767 /* Coptix_iOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8646BDF2B954C9400E45767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8646BE82B954C9400E45767 /* Coptix_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8646BE92B954C9400E45767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8646BF22B954C9400E45767 /* Coptix_iOSUITests.swift in Sources */,
+				C8646BF42B954C9400E45767 /* Coptix_iOSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8646BE52B954C9400E45767 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8646BD22B954C9200E45767 /* Coptix-iOS */;
+			targetProxy = C8646BE42B954C9400E45767 /* PBXContainerItemProxy */;
+		};
+		C8646BEF2B954C9400E45767 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8646BD22B954C9200E45767 /* Coptix-iOS */;
+			targetProxy = C8646BEE2B954C9400E45767 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C8646BF52B954C9400E45767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C8646BF62B954C9400E45767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8646BF82B954C9400E45767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Coptix-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 25VX722BV4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jo.Coptix-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8646BF92B954C9400E45767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Coptix-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 25VX722BV4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jo.Coptix-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C8646BFB2B954C9400E45767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25VX722BV4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jo.Coptix-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coptix-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Coptix-iOS";
+			};
+			name = Debug;
+		};
+		C8646BFC2B954C9400E45767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25VX722BV4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jo.Coptix-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coptix-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Coptix-iOS";
+			};
+			name = Release;
+		};
+		C8646BFE2B954C9400E45767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25VX722BV4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jo.Coptix-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Coptix-iOS";
+			};
+			name = Debug;
+		};
+		C8646BFF2B954C9400E45767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25VX722BV4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jo.Coptix-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Coptix-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8646BCE2B954C9200E45767 /* Build configuration list for PBXProject "Coptix-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8646BF52B954C9400E45767 /* Debug */,
+				C8646BF62B954C9400E45767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8646BF72B954C9400E45767 /* Build configuration list for PBXNativeTarget "Coptix-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8646BF82B954C9400E45767 /* Debug */,
+				C8646BF92B954C9400E45767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8646BFA2B954C9400E45767 /* Build configuration list for PBXNativeTarget "Coptix-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8646BFB2B954C9400E45767 /* Debug */,
+				C8646BFC2B954C9400E45767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8646BFD2B954C9400E45767 /* Build configuration list for PBXNativeTarget "Coptix-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8646BFE2B954C9400E45767 /* Debug */,
+				C8646BFF2B954C9400E45767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8646BCB2B954C9200E45767 /* Project object */;
+}
