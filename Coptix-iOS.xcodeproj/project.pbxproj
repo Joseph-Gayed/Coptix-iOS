@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		C8646BD72B954C9200E45767 /* Coptix_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8646BD62B954C9200E45767 /* Coptix_iOSApp.swift */; };
-		C8646BD92B954C9200E45767 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8646BD82B954C9200E45767 /* ContentView.swift */; };
+		C8646BD92B954C9200E45767 /* AppContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8646BD82B954C9200E45767 /* AppContentView.swift */; };
 		C8646BDB2B954C9300E45767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8646BDA2B954C9300E45767 /* Assets.xcassets */; };
 		C8646BDE2B954C9300E45767 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8646BDD2B954C9300E45767 /* Preview Assets.xcassets */; };
 		C8646BE82B954C9400E45767 /* Coptix_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8646BE72B954C9400E45767 /* Coptix_iOSTests.swift */; };
 		C8646BF22B954C9400E45767 /* Coptix_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8646BF12B954C9400E45767 /* Coptix_iOSUITests.swift */; };
 		C8646BF42B954C9400E45767 /* Coptix_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8646BF32B954C9400E45767 /* Coptix_iOSUITestsLaunchTests.swift */; };
+		C8646C0A2B95505E00E45767 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8646C092B95505E00E45767 /* SplashScreen.swift */; };
+		C8646C0D2B9550EA00E45767 /* HomeLandingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8646C0C2B9550EA00E45767 /* HomeLandingScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		C8646BD32B954C9200E45767 /* Coptix-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coptix-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8646BD62B954C9200E45767 /* Coptix_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coptix_iOSApp.swift; sourceTree = "<group>"; };
-		C8646BD82B954C9200E45767 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C8646BD82B954C9200E45767 /* AppContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContentView.swift; sourceTree = "<group>"; };
 		C8646BDA2B954C9300E45767 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8646BDD2B954C9300E45767 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C8646BE32B954C9400E45767 /* Coptix-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coptix-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,8 @@
 		C8646BED2B954C9400E45767 /* Coptix-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coptix-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8646BF12B954C9400E45767 /* Coptix_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coptix_iOSUITests.swift; sourceTree = "<group>"; };
 		C8646BF32B954C9400E45767 /* Coptix_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coptix_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C8646C092B95505E00E45767 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		C8646C0C2B9550EA00E45767 /* HomeLandingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLandingScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +98,13 @@
 		C8646BD52B954C9200E45767 /* Coptix-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				C8646C042B954FAE00E45767 /* core */,
+				C8646C032B954FA400E45767 /* shared */,
+				C8646C022B954F8800E45767 /* presentation */,
+				C8646C012B954F7D00E45767 /* domain */,
+				C8646C002B954F7700E45767 /* data */,
 				C8646BD62B954C9200E45767 /* Coptix_iOSApp.swift */,
-				C8646BD82B954C9200E45767 /* ContentView.swift */,
+				C8646BD82B954C9200E45767 /* AppContentView.swift */,
 				C8646BDA2B954C9300E45767 /* Assets.xcassets */,
 				C8646BDC2B954C9300E45767 /* Preview Content */,
 			);
@@ -125,6 +134,83 @@
 				C8646BF32B954C9400E45767 /* Coptix_iOSUITestsLaunchTests.swift */,
 			);
 			path = "Coptix-iOSUITests";
+			sourceTree = "<group>";
+		};
+		C8646C002B954F7700E45767 /* data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		C8646C012B954F7D00E45767 /* domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		C8646C022B954F8800E45767 /* presentation */ = {
+			isa = PBXGroup;
+			children = (
+				C8646C062B954FFD00E45767 /* home_landing */,
+				C8646C052B954FF100E45767 /* splash */,
+			);
+			path = presentation;
+			sourceTree = "<group>";
+		};
+		C8646C032B954FA400E45767 /* shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = shared;
+			sourceTree = "<group>";
+		};
+		C8646C042B954FAE00E45767 /* core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		C8646C052B954FF100E45767 /* splash */ = {
+			isa = PBXGroup;
+			children = (
+				C8646C072B95502F00E45767 /* view */,
+			);
+			path = splash;
+			sourceTree = "<group>";
+		};
+		C8646C062B954FFD00E45767 /* home_landing */ = {
+			isa = PBXGroup;
+			children = (
+				C8646C0B2B9550C000E45767 /* view */,
+				C8646C082B95503500E45767 /* view_model */,
+			);
+			path = home_landing;
+			sourceTree = "<group>";
+		};
+		C8646C072B95502F00E45767 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				C8646C092B95505E00E45767 /* SplashScreen.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		C8646C082B95503500E45767 /* view_model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view_model;
+			sourceTree = "<group>";
+		};
+		C8646C0B2B9550C000E45767 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				C8646C0C2B9550EA00E45767 /* HomeLandingScreen.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +343,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8646BD92B954C9200E45767 /* ContentView.swift in Sources */,
+				C8646C0D2B9550EA00E45767 /* HomeLandingScreen.swift in Sources */,
+				C8646C0A2B95505E00E45767 /* SplashScreen.swift in Sources */,
+				C8646BD92B954C9200E45767 /* AppContentView.swift in Sources */,
 				C8646BD72B954C9200E45767 /* Coptix_iOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
